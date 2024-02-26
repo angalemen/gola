@@ -1,0 +1,14 @@
+res://Player/player.gd
+res://parallax_background.gdshader
+res://main.tscn
+res://World/world.tscn
+res://game_over_screen.tscn
+res://Player/player.tscn
+res://global.tscn
+res://menu.tscn
+res://parallax_background.tscn
+res://portal.tscn
+res://nivl_2.tscn
+res://parallax_background.gd
+res://parallax_background2.tscn
+res://portal.gd

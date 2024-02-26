@@ -1,0 +1,26 @@
+[gd_scene load_steps=5 format=3 uid="uid://dv0g2lxklkvy4"]
+
+[ext_resource type="Script" path="res://parallax_background.gd" id="1_xn8da"]
+[ext_resource type="Shader" path="res://parallax_background.gdshader" id="2_kt7v6"]
+[ext_resource type="Texture2D" uid="uid://cbgsiudorfbpq" path="res://assetsbuenos/mapahielo/neu.png" id="3_fe77r"]
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_5o7vt"]
+shader = ExtResource("2_kt7v6")
+
+[node name="ParallaxBackground" type="ParallaxBackground"]
+scroll_offset = Vector2(300, 300)
+script = ExtResource("1_xn8da")
+
+[node name="ParallaxLayer" type="ParallaxLayer" parent="."]
+position = Vector2(-2, -4.99998)
+scale = Vector2(1.19099, 1.04127)
+motion_mirroring = Vector2(3000, 3000)
+
+[node name="TextureRect" type="TextureRect" parent="ParallaxLayer"]
+texture_repeat = 2
+material = SubResource("ShaderMaterial_5o7vt")
+offset_right = 372.0
+offset_bottom = 200.0
+scale = Vector2(0.552585, 0.552585)
+texture = ExtResource("3_fe77r")
+metadata/_edit_use_anchors_ = true

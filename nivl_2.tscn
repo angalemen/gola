@@ -1,0 +1,15 @@
+[gd_scene load_steps=3 format=3 uid="uid://bepqkytjcktx8"]
+
+[ext_resource type="Texture2D" uid="uid://c3i5fy4301fed" path="res://kenney_background-elements(2) (1)/Samples/MapaNieve.jpg.webp" id="1_2a23g"]
+[ext_resource type="Texture2D" uid="uid://wya5jviu717u" path="res://assetsbuenos/mapahielo/Plataformahielo.png" id="2_j8bi8"]
+
+[node name="Nivl2" type="Node"]
+
+[node name="MapaNieve_jpg" type="Sprite2D" parent="."]
+position = Vector2(181, 280)
+texture = ExtResource("1_2a23g")
+
+[node name="Plataformahielo" type="Sprite2D" parent="."]
+position = Vector2(172, 593)
+scale = Vector2(0.544105, 0.5)
+texture = ExtResource("2_j8bi8")
